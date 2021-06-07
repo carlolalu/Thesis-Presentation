@@ -112,8 +112,8 @@ The word \alert{automaton}: from the greek "acting of one's own will". Automat\a
 \item Algebra
 \item Others
 \end{itemize}
-
-My aim: study some of the groups constructed through a special class of them, the invertible deterministic Mealy automata, here called simply automata.
+\pause
+My aim: study some of the groups constructed through a special class of them, the invertible deterministic Mealy automata, here called automata.
 \begin{figure}[h]
 \centering
 \begin{tikzpicture}[scale=0.8, every node/.style={transform shape}]
@@ -186,8 +186,8 @@ An \alert{automaton} is a 4-tuple $\auto{A}=\langle\abece,\QQ,\pi,\lambda\rangle
 	\item $\abece=\{x_1,\:\ldots\:,x_k\}$ is a finite set called the \alert{alphabet},
 	% so here we declare what we put inside and what comes aoutside of the machine
 	\item $\QQ$ is a set called the \alert{set of internal states of the  automaton},
-	\item $\pi:\textcolor{blue}{\abece}\times\QQ \longrightarrow \QQ $ is a function called the \alert{transition function},
-	\item $\lambda:\textcolor{blue}{\abece}\times\QQ \longrightarrow \textcolor{violet}{\abece}$ is a function such that $\lambda_q=\lambda(\cdot,q):\abece\longrightarrow\abece$ is bijective, and is called the \alert{output function}.
+	\item $\pi:\textcolor{blue}{\abece}\times\QQ \longrightarrow \QQ $ is called the \alert{transition function},
+	\item $\lambda:\textcolor{blue}{\abece}\times\QQ \longrightarrow \textcolor{violet}{\abece}$ is such that $\lambda_q=\lambda(\cdot,q):\abece\longrightarrow\abece$ is bijective, and is called the \alert{output function}.
 \end{itemize}
 \end{block}\pause
 \begin{figure}[h!]
@@ -218,13 +218,15 @@ An \alert{automaton} is a 4-tuple $\auto{A}=\langle\abece,\QQ,\pi,\lambda\rangle
 $\fslovar=\{x_{1}x_{2}\ldots x_{n}:x_{i}\in X, n\in\N\cup\{0\}\}$ the \alert{dictionary}.
 
 Word composition: $x_{1}\ldots x_{n}. z_{1}\ldots z_{n}:=x_{1}\ldots x_{n} z_{1}\ldots z_{n}$
-\end{block}\pause
+\end{block}
+\pause
 %\textcolor{violet}
 %\textcolor{blue}
 \begin{Definition}
 An \alert{initial automaton $\auto{A}_{q_0}$} is an automaton $\auto{A}$ with a fixed state $q_0$. 
 The \alert{action of $\auto{A}_{q_0}$} is the function $\LAMBDA_{q_0}:\fslovar\longrightarrow \fslovar$ with $\LAMBDA_{q_0}(\textcolor{blue}{x_1x_2\ldots x_n})=\textcolor{violet}{y_1y_2\ldots y_n}$.
-\end{Definition}%\pause
+\end{Definition}
+%\pause
 \begin{figure}
 \begin{tikzpicture}[scale=0.8, every node/.style={transform shape}]
 \node[state, accepting](q0) at (0,1cm) {$q_0$};
@@ -284,7 +286,12 @@ The \alert{action of $\auto{A}_{q_0}$} is the function $\LAMBDA_{q_0}:\fslovar\l
 \begin{frame}
 \frametitle{4. The word tree $\fslovar$}
 \begin{block}{Definition}
-Given $\word{w},\word{v}\in\fslovar$, $\word{w}$ is a child of $\word{v}$ if and only if $\word{w}=\word{v}.x=\word{v}x$ for some letter $x\in\abece$.
+\centering
+$\underline{w}=w_1\ldots w_n$ is a child of $v_1\ldots v_m=\underline{v}$ 
+
+$\Longleftrightarrow$ 
+
+$w_1\ldots w_n=v_1\ldots v_m \textcolor{blue}x$ for some letter $\textcolor{blue}x\in\abece$.
 \end{block}
 \begin{figure}
 \centering
@@ -309,7 +316,7 @@ child[left]{node{00} child[right]{node{000}child[dotted,line width=0.2mm]child[d
 A function $f:\fslovar\longrightarrow\fslovar$ is the action of some initial automaton if and only if is a \alert{tree-automorphism} on the word tree $\fslovar$, i.e.:
 \begin{itemize}
 \item $f(\varnothing)=\varnothing$.
-\item if $\word{w}\in\fslovar$ is a child of $\word{v}$ then $f(\word{w})$ is a child of $f(\word{v})$.
+\item if $\underline{w}\in\fslovar$ is a child of $\underline{v}$ then $f(\underline{w})$ is a child of $f(\underline{v})$.
 \item f is bijective.
 \end{itemize}
 \end{block}
@@ -336,20 +343,28 @@ A function $f:\fslovar\longrightarrow\fslovar$ is the action of some initial aut
 \end{tikzpicture}
 \end{figure}
 %\end{wrapfigure}
-\begin{block}{Proposition}
-If $f,g$ are tree-automorphisms on $\fslovar$, then $g\circ f$ and $f^{-1}$ are tree-automorphisms on $\fslovar$.
-\end{block}
+
 \end{frame}
+
+%\begin{block}{Proposition}
+%If $f,g$ are tree-automorphisms on $\fslovar$, then $g\circ f$ and $f^{-1}$ are tree-automorphisms on $\fslovar$.
+%\end{block}
+
+%%\begin{block}{Proposition}
+%$f,g$ tree-automorphisms on $\fslovar$ $\Rightarrow$ $g\circ f$ and $f^{-1}$ tree-automorphisms on $\fslovar$
+%%\end{block}
 
 
 %\item Let $\auto{A}$ be a Synchronous  Automaton with its action $f$. It's invertible \textbf{(exists $\auto{A}'$ with its action $f'$ such that $f\circ f'=id$)} \emph{if and only if} $\lambda(\cdot,q) $ is invertible 
 %(Memento: $\lambda(\cdot ,q) $ is exactly the action of the  Automaton)
 %$$x|y\longrightarrow y|x$$
 
+%, called \alert{synchronous automatic permutations},
+
 \begin{frame}
 \frametitle{6. Groups defined by automata}
 \begin{block}{Proposition}
-The functions $f:\fslovar\longrightarrow \fslovar$ defined by initial automata (i.e. tree-automorphisms), called \alert{synchronous automatic permutations}, form a group denoted by $\aut_{tree}(\fslovar)$.
+The functions $f:\fslovar\longrightarrow \fslovar$ defined by initial automata (i.e. tree-automorphisms) form a group denoted by $\aut_{tree}(\fslovar)$.
 \end{block}\pause
 \begin{Definition}
 Let $\auto{A}=\langle \abece,\QQ,\pi,\lambda\rangle$ be an automaton. The \alert{group defined by $\auto{A}$} is the group generated by the set $\{\LAMBDA_q:q\in\QQ\}$.
@@ -487,7 +502,7 @@ Let $\auto{A}=\langle \abece,\QQ,\pi,\lambda\rangle$ be an automaton. The \alert
 
 
 \begin{frame}
-\frametitle{7. Application to automata}
+\frametitle{7. Wreath product and automata}
 \begin{block}{Definition}
 Let $\symm(\abece)$ be the simmetric group on $\abece=\{x_1,\ldots,x_k\}$. Then the wreath product $\textcolor{red}{\symm(\abece)}\wr\textcolor{blue}{\aut_{tree}(\fslovar)}$ is the group $\big(\textcolor{red}{\symm(\abece)}\times\textcolor{blue}{\aut_{tree}(\fslovar)^{\abece}},\:*\big)$ where the multiplication rule is:
 \begin{align*}
@@ -495,6 +510,7 @@ Let $\symm(\abece)$ be the simmetric group on $\abece=\{x_1,\ldots,x_k\}$. Then 
 &\textcolor{red}{\gamma\circ\alpha}\;(\textcolor{blue}{c_{\textcolor{red}{\alpha}(x_1)}\circ a_{x_1}},\:\ldots\:,\textcolor{blue}{c_{\textcolor{red}{\alpha}(x_k)}\circ a_{x_k}})
 \end{align*}
 \end{block}
+\pause
 \begin{block}{Proposition}
 Let $\abece=\{x_1,\:\ldots,\:x_k\}$. Then the function $\psi:\aut_{tree}(\fslovar)\longrightarrow\symm(\abece)\wr\aut_{tree}(\fslovar)=\big(\textcolor{red}{\symm(\abece)}\times\textcolor{blue}{\aut_{tree}(\fslovar)^{\abece}},\:*\big)$ defined by
 $$\psi(\LAMBDA_{q_0})=\textcolor{red}{\lambda_{q_0}}\textcolor{blue}{(\LAMBDA_{\pi(x_1,q_0)},\ldots,\LAMBDA_{\pi(x_n,q_0)})}$$
@@ -541,6 +557,7 @@ f_{q_n}&=\beta_{q_n}(h_{x_1,q_n},\ldots,h_{x_k,q_n}),
 \end{split}
 \end{equation*}
 where each $h_{x_i,q_j}$ is equal to some $f_{q_l}$ and each $\beta_{q_j}\in\symm(\abece)$.
+\pause
 Conversely, each such set of $n$ recursive formulas defines an automaton $\auto{A}$ such that $\LAMBDA_{q_j}=f_{q_j}$ for every $q_j\in\QQ$.
 \end{block}
 \begin{figure}[h]
@@ -606,10 +623,11 @@ Let $\auto{A}$ be a 2-state  automaton over the alphabet $X=\{0,1\}$ and $G$ the
 \item the trivial group $\{1_G\}$,
 \item $\Z_2$,
 \item $\Z_2\times\Z_2$,
+\pause
 \item $\Z$,
 \item the infinite dihedral group $\mathcal{D}_\infty=(\Z_2\times\Z,*)$, where:
-$$(h,z_1)*(k,z_2)=(h+_{\Z_2}k,(-1)^{k}z_1+z_2),$$
-
+$$(\textcolor{red}h,z_1)*(\textcolor{red}k,z_2)=(\textcolor{red}{h+_{\Z_2}k},(-1)^{\textcolor{red}k}z_1+z_2),$$
+\pause
 \item the lamplighter group $\LL=(\Z\times\Z_{2}^{(\Z)},*)$, where:
 $$(\textcolor{red}{z_2},(h_i)_{i\in\Z})*(\textcolor{red}{z_1},(k_i)_{i\in\Z})=(\textcolor{red}{z_2+z_1},(h_{i+\textcolor{red}{z_1}}+_{\Z_2}k_{i})_{i\in\Z}).$$
 \end{itemize}
@@ -627,11 +645,12 @@ Let $\QQ=\{r,s\}$ and $a=\LAMBDA_r,b=\LAMBDA_s$, then
 \draw  (aut) edge[dashed,color=blue,below,<->] node[scale=0.8,transform shape]{} (system);
 \end{tikzpicture}
 \end{figure}
-where $x_{ij}\in\{a,b\}$ and $\tau^{i_1},\tau^{i_2}\in\symm(\abece)=\symm(\{0,1\})$. There are 64 possibilities.
-\end{block}\pause
-\begin{block}{Case analysis}
-Let $\tau$ be the transposition of $\symm(\abece)$. Every case is analogous to one of the 24 cases where $a\in\{\tau(a,a),\tau(a,b),\tau(b,b)\}$. We proceed by analysing part of them.
+where $x_{ij}\in\{a,b\}$ and $\tau^{i_1},\tau^{i_2}\in\symm(\abece)=\symm(\{0,1\})$. There are 64 possibilities. We proceed by analysing part of them.
 \end{block}
+%\pause
+%\begin{block}{Case analysis}
+%Let $\tau$ be the transposition of $\symm(\abece)$. Every case is analogous to one of the 24 cases where $a\in\{\tau(a,a),\tau(a,b),\tau(b,b)\}$. We proceed by analysing part of them.
+%\end{block}
 \end{frame}
 
 
