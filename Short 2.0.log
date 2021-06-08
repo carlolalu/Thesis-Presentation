@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  7 JUN 2021 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  7 JUN 2021 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1341,73 +1341,52 @@ Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 57
 [15
 
 ]
-Overfull \vbox (8.76761pt too high) detected at line 635
- []
-
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 635.
+Package pdftex.def Info: Images/units.jpeg  used on input line 634.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
 Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 63
-5.
+4.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
-[16
+ [16
 
 ]
-Overfull \vbox (8.76761pt too high) detected at line 635
- []
-
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 635.
+Package pdftex.def Info: Images/units.jpeg  used on input line 634.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
 Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 63
-5.
+4.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
-[17
-
-]
-Overfull \vbox (8.76761pt too high) detected at line 635
- []
-
-File: Images/units.jpeg Graphic file (type jpg)
-<use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 635.
-(pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
-File: Images/univerza v ljubljani.png Graphic file (type png)
-<use Images/univerza v ljubljani.png>
-Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 63
-5.
-(pdftex.def)             Requested size: 18.31pt x 26.10994pt.
-[18
+ [17
 
 ]
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 654.
+Package pdftex.def Info: Images/units.jpeg  used on input line 653.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
 Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 65
-4.
+3.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
- [19
+ [18
 
 ]
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 681.
+Package pdftex.def Info: Images/units.jpeg  used on input line 680.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
 Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 68
-1.
+0.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
- [20
+ [19
 
 ]
 \tf@nav=\write6
@@ -1419,11 +1398,11 @@ Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 68
 \tf@snm=\write8
 \openout8 = `"Short 2.0.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 700.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 700.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 699.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 699.
  (./Short 2.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 700.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 700.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 699.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 699.
 Package rerunfilecheck Info: File `"Short 2.0".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1432,31 +1411,34 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 26293 strings out of 481239
- 560941 string characters out of 5920377
+ 26292 strings out of 481239
+ 560934 string characters out of 5920377
  918847 words of memory out of 5000000
  40897 multiletter control sequences out of 15000+600000
  545145 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,80p,853b,1457s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.
-pfb>
-Output written on "Short 2.0.pdf" (20 pages, 268038 bytes).
+pdfTeX warning (dest): name{Navigation20} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
+b>
+Output written on "Short 2.0.pdf" (19 pages, 265785 bytes).
 PDF statistics:
- 596 PDF objects out of 1000 (max. 8388607)
- 545 compressed objects within 6 object streams
- 41 named destinations out of 1000 (max. 500000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 522 compressed objects within 6 object streams
+ 40 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
