@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  17 MAR 2021 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  17 MAR 2021 17:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Short 1.0.tex"
-(./Short 1.0.tex
+**"Short 2.0.tex"
+(./Short 2.0.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -948,8 +948,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)
-(./Short 1.0.aux)
-\openout1 = `"Short 1.0.aux"'.
+(./Short 2.0.aux)
+\openout1 = `"Short 2.0.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
@@ -1043,9 +1043,9 @@ LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
 LaTeX Info: Redefining \nameref on input line 68.
 
-(./Short 1.0.out) (./Short 1.0.out)
+(./Short 2.0.out) (./Short 2.0.out)
 \@outlinefile=\write5
-\openout5 = `"Short 1.0.out"'.
+\openout5 = `"Short 2.0.out"'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 68.
@@ -1123,7 +1123,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./Short 1.0.nav)
+) (./Short 2.0.nav)
 <Images/units.jpeg, id=13, 513.92pt x 513.92pt>
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
@@ -1175,10 +1175,6 @@ Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 14
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
 (Font)              using `OT1/cmss/m/n' instead on input line 211.
 
-
-Overfull \vbox (1.69617pt too high) detected at line 211
- []
-
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
 Package pdftex.def Info: Images/units.jpeg  used on input line 211.
@@ -1191,9 +1187,6 @@ Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 21
 [3
 
 ]
-Overfull \vbox (1.69617pt too high) detected at line 211
- []
-
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
 Package pdftex.def Info: Images/units.jpeg  used on input line 211.
@@ -1203,127 +1196,175 @@ File: Images/univerza v ljubljani.png Graphic file (type png)
 Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 21
 1.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
-[4
+ [4
 
 ]
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 243.
+Package pdftex.def Info: Images/units.jpeg  used on input line 242.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
 Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 24
-3.
+2.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
  [5
 
 ]
-Overfull \hbox (8.35133pt too wide) in paragraph at lines 304--304
+File: Images/units.jpeg Graphic file (type jpg)
+<use Images/units.jpeg>
+Package pdftex.def Info: Images/units.jpeg  used on input line 242.
+(pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
+File: Images/univerza v ljubljani.png Graphic file (type png)
+<use Images/univerza v ljubljani.png>
+Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 24
+2.
+(pdftex.def)             Requested size: 18.31pt x 26.10994pt.
+ [6
+
+]
+Overfull \hbox (8.35133pt too wide) in paragraph at lines 303--303
  [] 
  []
 
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 304.
+Package pdftex.def Info: Images/units.jpeg  used on input line 303.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
 Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 30
-4.
+3.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
-[6
+[7
 
 ]
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 343.
+Package pdftex.def Info: Images/units.jpeg  used on input line 342.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
 Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 34
-3.
-(pdftex.def)             Requested size: 18.31pt x 26.10994pt.
- [7
-
-]
-File: Images/units.jpeg Graphic file (type jpg)
-<use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 371.
-(pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
-File: Images/univerza v ljubljani.png Graphic file (type png)
-<use Images/univerza v ljubljani.png>
-Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 37
-1.
+2.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
  [8
 
 ]
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 456.
+Package pdftex.def Info: Images/units.jpeg  used on input line 370.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
-Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 45
-6.
+Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 37
+0.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
  [9
 
 ]
-Overfull \vbox (2.83426pt too high) detected at line 481
- []
-
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 481.
+Package pdftex.def Info: Images/units.jpeg  used on input line 370.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
-Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 48
-1.
+Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 37
+0.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
-[10
+ [10
 
 ]
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 496.
+Package pdftex.def Info: Images/units.jpeg  used on input line 507.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
-Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 49
-6.
+Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 50
+7.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
  [11
 
 ]
+Overfull \vbox (3.80142pt too high) detected at line 555
+ []
+
 File: Images/units.jpeg Graphic file (type jpg)
 <use Images/units.jpeg>
-Package pdftex.def Info: Images/units.jpeg  used on input line 523.
+Package pdftex.def Info: Images/units.jpeg  used on input line 555.
 (pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
 File: Images/univerza v ljubljani.png Graphic file (type png)
 <use Images/univerza v ljubljani.png>
-Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 52
-3.
+Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 55
+5.
 (pdftex.def)             Requested size: 18.31pt x 26.10994pt.
- [12
+[12
+
+]
+File: Images/units.jpeg Graphic file (type jpg)
+<use Images/units.jpeg>
+Package pdftex.def Info: Images/units.jpeg  used on input line 617.
+(pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
+File: Images/univerza v ljubljani.png Graphic file (type png)
+<use Images/univerza v ljubljani.png>
+Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 61
+7.
+(pdftex.def)             Requested size: 18.31pt x 26.10994pt.
+ [13
+
+]
+File: Images/units.jpeg Graphic file (type jpg)
+<use Images/units.jpeg>
+Package pdftex.def Info: Images/units.jpeg  used on input line 635.
+(pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
+File: Images/univerza v ljubljani.png Graphic file (type png)
+<use Images/univerza v ljubljani.png>
+Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 63
+5.
+(pdftex.def)             Requested size: 18.31pt x 26.10994pt.
+ [14
+
+]
+File: Images/units.jpeg Graphic file (type jpg)
+<use Images/units.jpeg>
+Package pdftex.def Info: Images/units.jpeg  used on input line 635.
+(pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
+File: Images/univerza v ljubljani.png Graphic file (type png)
+<use Images/univerza v ljubljani.png>
+Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 63
+5.
+(pdftex.def)             Requested size: 18.31pt x 26.10994pt.
+ [15
+
+]
+File: Images/units.jpeg Graphic file (type jpg)
+<use Images/units.jpeg>
+Package pdftex.def Info: Images/units.jpeg  used on input line 662.
+(pdftex.def)             Requested size: 20.55328pt x 20.55328pt.
+File: Images/univerza v ljubljani.png Graphic file (type png)
+<use Images/univerza v ljubljani.png>
+Package pdftex.def Info: Images/univerza v ljubljani.png  used on input line 66
+2.
+(pdftex.def)             Requested size: 18.31pt x 26.10994pt.
+ [16
 
 ]
 \tf@nav=\write6
-\openout6 = `"Short 1.0.nav"'.
+\openout6 = `"Short 2.0.nav"'.
 
 \tf@toc=\write7
-\openout7 = `"Short 1.0.toc"'.
+\openout7 = `"Short 2.0.toc"'.
 
 \tf@snm=\write8
-\openout8 = `"Short 1.0.snm"'.
+\openout8 = `"Short 2.0.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 542.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 542.
- (./Short 1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 542.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 542.
-Package rerunfilecheck Info: File `"Short 1.0".out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 681.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 681.
+ (./Short 2.0.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 681.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 681.
+Package rerunfilecheck Info: File `"Short 2.0".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
@@ -1331,11 +1372,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 26259 strings out of 481239
- 560515 string characters out of 5920377
- 917601 words of memory out of 5000000
- 40881 multiletter control sequences out of 15000+600000
- 543495 words of font info for 64 fonts, out of 8000000 for 9000
+ 26285 strings out of 481239
+ 560867 string characters out of 5920377
+ 917793 words of memory out of 5000000
+ 40897 multiletter control sequences out of 15000+600000
+ 545145 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,80p,853b,1457s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -1352,10 +1393,10 @@ cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.
 pfb>
-Output written on "Short 1.0.pdf" (12 pages, 241648 bytes).
+Output written on "Short 2.0.pdf" (16 pages, 256403 bytes).
 PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 347 compressed objects within 4 object streams
- 25 named destinations out of 1000 (max. 500000)
+ 491 PDF objects out of 1000 (max. 8388607)
+ 445 compressed objects within 5 object streams
+ 33 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
