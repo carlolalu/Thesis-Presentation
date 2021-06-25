@@ -418,33 +418,33 @@ Let $\auto{A}=\langle \abece,\QQ,\pi,\lambda\rangle$ be an automaton. The \alert
 
 
 
-%\begin{frame}
-%\frametitle{7. Semidirect product and faithful actions}
-%\begin{block}{Definition}
-%Let $(B,*_B),(N,*_N)$ be groups and $\varphi:B\longrightarrow \aut(N)$ an homomorphism, where $\aut(N)$ denotes the group of (group-)automorphisms on $N$. Then \alert{the semidirect product $B\ltimes_\varphi N$} is the group $(\textcolor{red}{B}\times N,*_\varphi)$, with composition rule:
-%$$\big(\textcolor{red}{b_2},n_2\big)*_\varphi\big(\textcolor{red}{b_1},n_1\big)=\big(\; \textcolor{red}{b_2}*_B \textcolor{red}{b_1},\; \varphi(\textcolor{red}{b_1})(n_2)*_N n_1\big)$$
-%\end{block}\pause
-%
-%\begin{block}{Definition}
-%Let $B$ be a group and $\symm(Y)$ be the simmetric group on $Y$. Then a \alert{faithful action $\varphi$ of $B$ on $Y$} is a monomorphism $\varphi:\textcolor{red}{B}\longrightarrow\symm(Y)$ and we sign $y\textcolor{red}{b}:=\varphi(\textcolor{red}{b})(y)$.
-%\end{block}
-%\end{frame}
-%
-%\begin{frame}
-%\frametitle{8. Wreath product}
-%\begin{block}{Direct sum}
-%Let $A$ be a group and $Y$ a set. The \alert{direct sum of $A$ on $Y$} is the group
-%$$A^{(Y)}:=\{(a_\omega )_{\omega\in Y} : a_\omega\in A \text{ and }a_\omega\neq 1_A\text{ only for a finite number of }\omega \}.$$
-%equipped with the component-wise operation of $A$. If $Y$ is finite we have $A^{(Y)}=A^Y=A\times A\cdots \times A$. 
-%\end{block}\pause
-%\begin{block}{Wreath Product}
-%Let $B$ be a group which acts faithfully on $Y$ and let $A$ be a group. Then the wreath product $\textcolor{red}{B}\wr A$ is the semidirect product $\textcolor{red}{B}\ltimes_\Phi A^{(Y)}=(\textcolor{red}{B}\times A^{(Y)},*)$ where the composition rule is:
-%\begin{align*}
-%\big(\textcolor{red}{g},\:(u_{y})_{y\in Y}\big) \:*\: \big(\textcolor{red}{h},\:(v_{y})_{y\in Y}\big):=&\big(\textcolor{red}{gh},\:\Phi(\textcolor{red}{h})\textcolor{red}{(}(u_{y})_{y\in Y}\textcolor{red}{)}\:(v_y)_{y\in Y}\big):=\\
-%=&\big(\textcolor{red}{gh},\:(u_{y\textcolor{red}{h}}v_y)_{y\in Y}\big).
-%\end{align*}
-%\end{block}
-%\end{frame}
+\begin{frame}
+\frametitle{7. Semidirect product and faithful actions}
+\begin{block}{Definition}
+Let $(B,*_B),(N,*_N)$ be groups and $\varphi:B\longrightarrow \aut(N)$ an homomorphism, where $\aut(N)$ denotes the group of (group-)automorphisms on $N$. Then \alert{the semidirect product $B\ltimes_\varphi N$} is the group $(\textcolor{red}{B}\times N,*_\varphi)$, with composition rule:
+$$\big(\textcolor{red}{b_2},n_2\big)*_\varphi\big(\textcolor{red}{b_1},n_1\big)=\big(\; \textcolor{red}{b_2}*_B \textcolor{red}{b_1},\; \varphi(\textcolor{red}{b_1})(n_2)*_N n_1\big)$$
+\end{block}\pause
+
+\begin{block}{Definition}
+Let $B$ be a group and $\symm(Y)$ be the simmetric group on $Y$. Then a \alert{faithful action $\varphi$ of $B$ on $Y$} is a monomorphism $\varphi:\textcolor{red}{B}\longrightarrow\symm(Y)$ and we sign $y\textcolor{red}{b}:=\varphi(\textcolor{red}{b})(y)$.
+\end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{8. Wreath product}
+\begin{block}{Direct sum}
+Let $A$ be a group and $Y$ a set. The \alert{direct sum of $A$ on $Y$} is the group
+$$A^{(Y)}:=\{(a_\omega )_{\omega\in Y} : a_\omega\in A \text{ and }a_\omega\neq 1_A\text{ only for a finite number of }\omega \}.$$
+equipped with the component-wise operation of $A$. If $Y$ is finite we have $A^{(Y)}=A^Y=A\times A\cdots \times A$. 
+\end{block}\pause
+\begin{block}{Wreath Product}
+Let $B$ be a group which acts faithfully on $Y$ and let $A$ be a group. Then the wreath product $\textcolor{red}{B}\wr A$ is the semidirect product $\textcolor{red}{B}\ltimes_\Phi A^{(Y)}=(\textcolor{red}{B}\times A^{(Y)},*)$ where the composition rule is:
+\begin{align*}
+\big(\textcolor{red}{g},\:(u_{y})_{y\in Y}\big) \:*\: \big(\textcolor{red}{h},\:(v_{y})_{y\in Y}\big):=&\big(\textcolor{red}{gh},\:\Phi(\textcolor{red}{h})\textcolor{red}{(}(u_{y})_{y\in Y}\textcolor{red}{)}\:(v_y)_{y\in Y}\big):=\\
+=&\big(\textcolor{red}{gh},\:(u_{y\textcolor{red}{h}}v_y)_{y\in Y}\big).
+\end{align*}
+\end{block}
+\end{frame}
 
 
 
@@ -487,24 +487,16 @@ Let $\auto{A}=\langle \abece,\QQ,\pi,\lambda\rangle$ be an automaton. The \alert
 
 
 \begin{frame}
-\frametitle{7. Application to automata}
-\begin{block}{Definition}
-Let $\symm(\abece)$ be the simmetric group on $\abece=\{x_1,\ldots,x_k\}$. Then the wreath product $\textcolor{red}{\symm(\abece)}\wr\textcolor{blue}{\aut_{tree}(\fslovar)}$ is the group $\big(\textcolor{red}{\symm(\abece)}\times\textcolor{blue}{\aut_{tree}(\fslovar)^{\abece}},\:*\big)$ where the multiplication rule is:
-\begin{align*}
-&\textcolor{red}{\gamma}(\textcolor{blue}{c_{x_1}},\:\ldots\:,\textcolor{blue}{c_{x_k}})\:*\:\textcolor{red}{\alpha}(\textcolor{blue}{a_{x_1}},\:\ldots\:,\textcolor{blue}{a_{x_k}}):=\\
-&\textcolor{red}{\gamma\circ\alpha}\;(\textcolor{blue}{c_{\textcolor{red}{\alpha}(x_1)}\circ a_{x_1}},\:\ldots\:,\textcolor{blue}{c_{\textcolor{red}{\alpha}(x_k)}\circ a_{x_k}})
-\end{align*}
-\end{block}
+\frametitle{9. Application to automata}
 \begin{block}{Proposition}
 Let $\abece=\{x_1,\:\ldots,\:x_k\}$. Then the function $\psi:\aut_{tree}(\fslovar)\longrightarrow\symm(\abece)\wr\aut_{tree}(\fslovar)=\big(\textcolor{red}{\symm(\abece)}\times\textcolor{blue}{\aut_{tree}(\fslovar)^{\abece}},\:*\big)$ defined by
 $$\psi(\LAMBDA_{q_0})=\textcolor{red}{\lambda_{q_0}}\textcolor{blue}{(\LAMBDA_{\pi(x_1,q_0)},\ldots,\LAMBDA_{\pi(x_n,q_0)})}$$
 is an isomorphism of groups.
+\end{block}\pause
+\begin{block}{Proposition}
+The wreath product $\symm(\abece)\wr\aut_{tree}(\fslovar)$ acts faithfully on $\fslovar$ as:
+$${\lambda_{q_0}}{(\LAMBDA_{\pi(x_1,q_0)},\ldots,\LAMBDA_{\pi(x_n,q_0)})}(\textcolor{violet}{w_1w_2w_3\ldots})={\lambda_{q_0}(\textcolor{violet}{w_1})}.(\LAMBDA_{\pi(\textcolor{violet}{w_1},q_0)})(\textcolor{violet}{w_2w_3\ldots})$$
 \end{block}
-%\begin{block}{Proposition}
-%The wreath product $\symm(\abece)\wr\aut_{tree}(\fslovar)$ acts faithfully on $\fslovar$ as:
-%$${\lambda_{q_0}}{(\LAMBDA_{\pi(x_1,q_0)},\ldots,\LAMBDA_{\pi(x_n,q_0)})}(\textcolor{violet}{w_1w_2w_3\ldots})={\lambda_{q_0}(\textcolor{violet}{w_1})}.(\LAMBDA_{\pi(\textcolor{violet}{w_1},q_0)})(\textcolor{violet}{w_2w_3\ldots})$$
-%\end{block}
-\end{frame}
 
 %\begin{figure}
 %\begin{tikzpicture}[scale=0.4, every node/.style={transform shape}]
@@ -523,13 +515,13 @@ is an isomorphism of groups.
 %\end{tikzpicture}
 %\end{figure}
 
-
+\end{frame}
 
 %&=\lambda_{\textcolor{red}{q_0}}(\LAMBDA_{\textcolor{blue}{q_1}}, \LAMBDA_{\textcolor{red}{q_0}})
 
 
 \begin{frame}
-\frametitle{8. System of formulas}
+\frametitle{10. System of formulas}
 \begin{block}{Proposition}
 Let $\auto{A}$ be an automaton with $\QQ=\{q_1,\ldots,q_n\}$ over $\abece=\{x_1,\ldots,x_k\}$. Then $\auto{A}$ is described by $n$ recurrent formulas 
 \begin{equation*}
@@ -556,50 +548,50 @@ Conversely, each such set of $n$ recursive formulas defines an automaton $\auto{
 
 
 
-%\begin{frame}
-%\frametitle{11. Preliminaries}
-%\begin{block}{Infinite dihedral group}
-%The infinite dihedral group is the semidirect product $\Z_2\ltimes_\phi\Z$ where $\phi(0)(z)=z,\phi(1)(z)=-z$. The group $\Z_2\ltimes_\phi\Z$ acts on $\Z$ from the left:
-%\begin{equation*}
-%(0,m)z=m+z\qquad (1,0)z=-z\qquad (1,m)=(1,0)*(0,m)
-%\end{equation*}
-%\end{block}
-%\centering
-%\begin{tikzpicture}[scale=0.65,every node/.style={transform shape}]
-%\draw[latex-] (-8.5,0) -- (8.5,0) ;
-%\draw[-latex] (-8.5,0) -- (8.5,0) ;
-%\foreach \x in  {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
-%\draw[shift={(\x,0)},color=black] (0cm,3pt) -- (0pt,-3pt) node (\x) {};
-%\foreach \x in {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
-%\draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] 
-%{$\x$};
-%\end{tikzpicture}
-%\pause
-%\begin{block}{Lamplighter group}
-%The lamplighter group is the wreath product $\Z\wr\Z_2=\Z\ltimes\Z_2^{(\Z)}$. The composition rule becomes:
-%$$(\textcolor{red}{z_2},(h_i)_{i\in\Z})*(\textcolor{red}{z_1},(k_i)_{i\in\Z})=(\textcolor{red}{z_2+z_1},(h_{i+\textcolor{red}{z_1}}+_{\Z_2}k_{i})_{i\in\Z})$$
-%\end{block}
-%\centering
-%\begin{tikzpicture}[scale=0.65,every node/.style={transform shape}]
-%\draw[latex-] (-8.5,0) -- (8.5,0) ;
-%\draw[-latex] (-8.5,0) -- (8.5,0) ;
-%\foreach \x in  {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
-%\draw[shift={(\x,0)},color=black] (0pt,0.7cm) -- (0pt,-3pt) node (\x) {};
-%\foreach \x in {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
-%\draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] 
-%{$\x$};
-%\foreach \x in {-7,-4,-3,1,2,3,7}
-%\filldraw[color=yellow]([yshift=0.7cm]\x) circle (0.3cm);
-%\foreach \x in {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
-%\filldraw[color=black]([yshift=0.7cm]\x) circle (0.1cm);
-%\filldraw[color=red]([yshift=-0.7cm]-1) circle (0.2cm);
-%\end{tikzpicture}
-%\end{frame}
+\begin{frame}
+\frametitle{11. Preliminaries}
+\begin{block}{Infinite dihedral group}
+The infinite dihedral group is the semidirect product $\Z_2\ltimes_\phi\Z$ where $\phi(0)(z)=z,\phi(1)(z)=-z$. The group $\Z_2\ltimes_\phi\Z$ acts on $\Z$ from the left:
+\begin{equation*}
+(0,m)z=m+z\qquad (1,0)z=-z\qquad (1,m)=(1,0)*(0,m)
+\end{equation*}
+\end{block}
+\centering
+\begin{tikzpicture}[scale=0.65,every node/.style={transform shape}]
+\draw[latex-] (-8.5,0) -- (8.5,0) ;
+\draw[-latex] (-8.5,0) -- (8.5,0) ;
+\foreach \x in  {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
+\draw[shift={(\x,0)},color=black] (0cm,3pt) -- (0pt,-3pt) node (\x) {};
+\foreach \x in {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
+\draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] 
+{$\x$};
+\end{tikzpicture}
+\pause
+\begin{block}{Lamplighter group}
+The lamplighter group is the wreath product $\Z\wr\Z_2=\Z\ltimes\Z_2^{(\Z)}$. The composition rule becomes:
+$$(\textcolor{red}{z_2},(h_i)_{i\in\Z})*(\textcolor{red}{z_1},(k_i)_{i\in\Z})=(\textcolor{red}{z_2+z_1},(h_{i+\textcolor{red}{z_1}}+_{\Z_2}k_{i})_{i\in\Z})$$
+\end{block}
+\centering
+\begin{tikzpicture}[scale=0.65,every node/.style={transform shape}]
+\draw[latex-] (-8.5,0) -- (8.5,0) ;
+\draw[-latex] (-8.5,0) -- (8.5,0) ;
+\foreach \x in  {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
+\draw[shift={(\x,0)},color=black] (0pt,0.7cm) -- (0pt,-3pt) node (\x) {};
+\foreach \x in {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
+\draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] 
+{$\x$};
+\foreach \x in {-7,-4,-3,1,2,3,7}
+\filldraw[color=yellow]([yshift=0.7cm]\x) circle (0.3cm);
+\foreach \x in {-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7}
+\filldraw[color=black]([yshift=0.7cm]\x) circle (0.1cm);
+\filldraw[color=red]([yshift=-0.7cm]-1) circle (0.2cm);
+\end{tikzpicture}
+\end{frame}
 
 
 
 \begin{frame}
-\frametitle{9. The classification theorem}
+\frametitle{12. The classification theorem}
 \begin{block}{Theorem}
 Let $\auto{A}$ be a 2-state  automaton over the alphabet $X=\{0,1\}$ and $G$ the group defined by this  automaton. Then $G$ is isomorphic to one of the following groups:
 \begin{itemize}
@@ -607,17 +599,14 @@ Let $\auto{A}$ be a 2-state  automaton over the alphabet $X=\{0,1\}$ and $G$ the
 \item $\Z_2$,
 \item $\Z_2\times\Z_2$,
 \item $\Z$,
-\item the infinite dihedral group $\mathcal{D}_\infty=(\Z_2\times\Z,*)$, where:
-$$(h,z_1)*(k,z_2)=(h+_{\Z_2}k,(-1)^{k}z_1+z_2),$$
-
-\item the lamplighter group $\LL=(\Z\times\Z_{2}^{(\Z)},*)$, where:
-$$(\textcolor{red}{z_2},(h_i)_{i\in\Z})*(\textcolor{red}{z_1},(k_i)_{i\in\Z})=(\textcolor{red}{z_2+z_1},(h_{i+\textcolor{red}{z_1}}+_{\Z_2}k_{i})_{i\in\Z}).$$
+\item the infinite dihedral group $\Z_2\ltimes_\phi\Z$,
+\item the lamplighter group $\Z\wr\Z_2=\Z\ltimes\Z_{2}^{(\Z)}$.
 \end{itemize}
 \end{block}
 \end{frame}
 
 \begin{frame}
-\frametitle{10. Sketch of proof}
+\frametitle{13. Sketch of proof}
 \begin{block}{Define the cases}
 Let $\QQ=\{r,s\}$ and $a=\LAMBDA_r,b=\LAMBDA_s$, then 
 \begin{figure}[h]
